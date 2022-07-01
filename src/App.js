@@ -1,11 +1,14 @@
+import { useState } from 'react';
 import Nav from './components/Nav';
 
 function App() {
-  return (
-    <div>
-        <Nav />
-    </div>
-  );
+    const [heroOpen, setHeroOpen] = useState(true);
+
+    return (
+        <div>
+            <Nav heroOpen={heroOpen} setHeroOpen={setHeroOpen} />
+        </div>
+    );
 }
 
 export default App;
