@@ -7,7 +7,7 @@ function Hero({ setHeroOpen }) {
             <div className="hero-content">
                 <div>
                     <p>I'm a Fullstack Web Developer. <br></br> I Make Effective, Polished, and Functional Systems.</p>
-                    <a href="#about-me" className="button" onClick={() => setHeroOpen(false)}>View My Work <i className="bi bi-arrow-down"></i></a>
+                    <button className="button" onClick={() => setHeroOpen(false)}>View My Work <i className="bi bi-arrow-down"></i></button>
                 </div>
             </div>
             {/* <div id="name-hero">
