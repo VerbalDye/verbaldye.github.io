@@ -1,9 +1,9 @@
 function About() {
     return (
         <div>
-            <h2 class="section-title">About Me</h2>
-            <div class="row justify-content-between align-items-stretch">
-                <article class="col-12 col-md-5 col-xxl-2">
+            <h2 className="section-title">About Me</h2>
+            <div className="row justify-content-between align-items-stretch">
+                <article className="col-12 col-md-5 col-xxl-2">
                     <h3>Welcome!</h3>
                     <p>
                         Welcome to my portfolio and thanks for visiting! If you scroll down a bit you will find many example
@@ -12,7 +12,7 @@ function About() {
                         in the coding space. As well as links for contact and my Github.
                     </p>
                 </article>
-                <article class="col-12 col-md-6 col-xxl-2">
+                <article className="col-12 col-md-6 col-xxl-2">
                     <h3>About Me?</h3>
                     <p>
                         I'm 6'3", enjoy cycling, soccer, and anything tech. I get along with just about everyone and try to
@@ -20,7 +20,7 @@ function About() {
                         cultures.
                     </p>
                 </article>
-                <article class="col-12 col-md-7 col-xxl-4">
+                <article className="col-12 col-md-7 col-xxl-4">
                     <h3>Experience</h3>
                     <p>
                         I have been working in IT for 4 years since I was 17. I started working part-time at a non-profit
@@ -34,7 +34,7 @@ function About() {
                         in February 2022. I have been building sites and apps ever since.
                     </p>
                 </article>
-                <article class="col-12 col-md-4 col-xxl-3">
+                <article className="col-12 col-md-4 col-xxl-3">
                     <h3>Professional Traits</h3>
                     <p>
                         I am hardworking, enthusiastic, and passioate about software development. Any skills I don't have, I
@@ -42,13 +42,13 @@ function About() {
                     </p>
                 </article>
             </div>
-            <div class="tech">
-                <button class="button" type="button" data-bs-toggle="collapse" data-bs-target="#tech-collapsable"
+            <div className="tech">
+                <button className="button" type="button" data-bs-toggle="collapse" data-bs-target="#tech-collapsable"
                     aria-expanded="false" aria-controls="tech-collapsable">
                     Technical Skills
                 </button>
-                <div class="collapse" id="tech-collapsable">
-                    <div class="d-flex justify-content-around flex-wrap">
+                <div className="collapse" id="tech-collapsable">
+                    <div className="d-flex justify-content-around flex-wrap">
                         <div>
                             <h3>Languages</h3>
                             <ul>

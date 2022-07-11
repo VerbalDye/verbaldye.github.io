@@ -137,6 +137,13 @@ header a {
     color: var(--quinary-color);
 }
 
+.link {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--light);
+    font-family: 'Raleway', sans-serif;
+}
+
 button:hover {
     opacity: .8;
 }

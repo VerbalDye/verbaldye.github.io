@@ -1,0 +1,27 @@
+{
+    "projects": [
+        {
+            "title": "Run Buddy",
+            "skills": "HTML/CSS",
+            "img_path": "run-buddy.JPG",
+            "description": "Run Buddy is a website to help advertise an exersize business. It mobile-first design and elegent custom CSS to create an excellent product for customers to browse.",
+            "github_link": "https://www.github.com/verbaldye/run-buddy/",
+            "deployed_link": "https://verbaldye.github.io/run-buddy/"
+        },
+        {
+            "title": "Tetris",
+            "skills": "Python",
+            "img_path": "tetris.JPG",
+            "description": "Recreation of Tetris built using Python and Pygame. Functioning score and speed increases with level. Very fun to play.",
+            "github_link": "https://www.github.com/verbaldye/Tetrimino-Game"
+        },
+        {
+            "title": "Password Generator",
+            "skills": "HTML/CSS/Javascript",
+            "img_path": "password-generator.JPG",
+            "description": "The password generator prompts users for what they'd like to include in a password and its length. Then it generates a secure password for the user.",
+            "github_link": "https://www.github.com/verbaldye/password-generator/",
+            "deployed_link": "https://verbaldye.github.io/password-generator/"
+        }
+    ]
+}

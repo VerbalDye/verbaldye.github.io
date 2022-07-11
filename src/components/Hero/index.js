@@ -1,13 +1,13 @@
 import coverImage from '../../assets/cover/cover_image.jpg'
 
-function Hero({ setHeroOpen }) {
+function Hero({ setCurrentPage }) {
 
     return (
         <div className='hero' style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${coverImage})` }}>
             <div className="hero-content">
                 <div>
                     <p>I'm a Fullstack Web Developer. <br></br> I Make Effective, Polished, and Functional Systems.</p>
-                    <button className="button" onClick={() => setHeroOpen(false)}>View My Work <i className="bi bi-arrow-down"></i></button>
+                    <button className="button" onClick={() => setCurrentPage('about')}>View My Work <i className="bi bi-arrow-down"></i></button>
                 </div>
             </div>
             {/* <div id="name-hero">

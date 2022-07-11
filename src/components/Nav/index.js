@@ -1,21 +1,20 @@
-import coverImage from '../../assets/cover/cover_image.jpg'
-import Hero from '../Hero';
+import coverImage from '../../assets/cover/cover_image.jpg';
 
-function Nav({ heroOpen, setHeroOpen }) {
+function Nav({ setCurrentPage }) {
 
     return (
-        <div className={heroOpen && 'hero-open'}>
+        <div>
             <header style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${coverImage})` }}>
                 <nav>
                     <ul className="flex-row space-around width-100 py-2 my-0">
                         <li className="mx-1">
-                            <a href="#about-me">About</a>
+                            <button className="link" onClick={() => setCurrentPage('about')}>About</button>
                         </li>
                         <li className="mx-1">
-                            <a href="#my-work">Projects</a>
+                            <button className="link" onClick={() => setCurrentPage('showcase')}>Projects</button>
                         </li>
                         <li className="mx-1">
-                            <a href="#contact">Contact</a>
+                            <button className="link" onClick={() => setCurrentPage('contact')}>Contact</button>
                         </li>
                         <li className="mx-1">
                             <a rel="noreferrer" href="https://docs.google.com/document/d/1U3h60zQ-hPWhbF7PX8xLOMQdHFGeD9mP4pnZHzQk9kU/edit?usp=sharing"
@@ -24,7 +23,6 @@ function Nav({ heroOpen, setHeroOpen }) {
                     </ul>
                 </nav>
             </header>
-            {heroOpen && <Hero setHeroOpen={setHeroOpen} />}
         </div>
     )
 };
