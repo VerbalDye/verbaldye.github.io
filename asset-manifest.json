@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.2e1c5137.js",
+    "main.css": "/static/css/main.01257c4e.css",
+    "main.js": "/static/js/main.ed21fe25.js",
     "static/js/787.238e9036.chunk.js": "/static/js/787.238e9036.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/cover_image.jpg": "/static/media/cover_image.76c4344da2119d02a7fb.jpg",
+    "static/media/upcycle.jpg": "/static/media/upcycle.7b4014a50224b9cf6bb3.jpg",
+    "static/media/run-buddy.JPG": "/static/media/run-buddy.1b2b57d0b22217df367b.JPG",
+    "static/media/weather-app.JPG": "/static/media/weather-app.ae433ed7846e84876f83.JPG",
+    "static/media/cocktail-music.JPG": "/static/media/cocktail-music.0c7613bfb895586a7d71.JPG",
+    "static/media/git-it-done.JPG": "/static/media/git-it-done.1855601229d46d400176.JPG",
+    "static/media/taskmaster-pro.jpg": "/static/media/taskmaster-pro.0bbf5b0095cd7a93eac6.jpg",
+    "static/media/coding-quiz.JPG": "/static/media/coding-quiz.c47848c7e7aa5a8d40b8.JPG",
+    "static/media/taskinator.JPG": "/static/media/taskinator.9be17e38c022031228d1.JPG",
+    "static/media/work-day-scheduler.jpg": "/static/media/work-day-scheduler.d1614e8d90d23dac02a1.jpg",
+    "static/media/tetris.JPG": "/static/media/tetris.d65ea4db19f07906fab8.JPG",
+    "static/media/password-generator.JPG": "/static/media/password-generator.7e246a163ce116f8e3f0.JPG",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.2e1c5137.js.map": "/static/js/main.2e1c5137.js.map",
+    "main.01257c4e.css.map": "/static/css/main.01257c4e.css.map",
+    "main.ed21fe25.js.map": "/static/js/main.ed21fe25.js.map",
     "787.238e9036.chunk.js.map": "/static/js/787.238e9036.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2e1c5137.js"
+    "static/css/main.01257c4e.css",
+    "static/js/main.ed21fe25.js"
   ]
 }
