@@ -6,10 +6,7 @@ function About() {
                 <article className="col-12 col-md-5 col-xxl-2">
                     <h3>Welcome!</h3>
                     <p>
-                        Welcome to my portfolio and thanks for visiting! If you scroll down a bit you will find many example
-                        of
-                        my work
-                        in the coding space. As well as links for contact and my Github.
+                        Welcome to my portfolio and thanks for visiting! If you across the top, you will find links to my accomplishments in the coding space as well as links to contact me.
                     </p>
                 </article>
                 <article className="col-12 col-md-6 col-xxl-2">
