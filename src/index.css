@@ -5,10 +5,6 @@
     --quaternary-color: #0A0908;
     --quinary-color: #fffff8;
     --error: rgb(228, 46, 1);
-    --spacing-one: calc(1rem * 0.5);
-    --spacing-two: calc(1rem);
-    --spacing-five: calc(2.5rem);
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Raleway:wght@300;400;700&display=swap');
@@ -54,11 +50,13 @@ nav ul {
     padding: 10px 20px;
     border-radius: 15px;
     transition: all 1s;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, .5);
 }
 
 .nav-link:hover {
     color: var(--primary-color);
     background: var(--quinary-color);
+    text-shadow: none;
 }
 
 .hero {
@@ -176,6 +174,82 @@ nav ul {
     font-size: 18px;
 }
 
+.showcase-el {
+    width: 90%;
+    margin: 50px auto;
+    border: 3px var(--secondary-color) solid;
+
+}
+
+.showcase-body {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.showcase-body p {
+    margin: 10px auto;
+    padding: 20px;
+    color: var(--quinary-color);
+    font-size: 30px;
+    width: 75%;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, .7);
+}
+
+.showcase-body a {
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+.showcase-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.showcase-title {
+    padding: 10px 50px;
+    border: 3px solid var(--secondary-color);
+    border-left: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    background-color: var(--tertiary-color);
+    width: fit-content;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, .5);
+    color: var(--quaternary-color);
+    font-weight: normal;
+}
+
+.contact-text {
+    font-size: 24px;
+    width: 85%;
+    margin: 0px auto;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 20px 0;
+    margin: 40px;
+}
+
+.contact li a {
+    color: var(--primary-color);
+    font-size: 22px;
+    padding: 10px 20px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, .5);
+}
+
+.contact li a:hover {
+    color: var(--primary-color);
+    text-shadow: none;
+    text-decoration: none;
+}
 
 footer {
     display: flex;
