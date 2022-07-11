@@ -22,6 +22,14 @@
             "description": "The password generator prompts users for what they'd like to include in a password and its length. Then it generates a secure password for the user.",
             "github_link": "https://www.github.com/verbaldye/password-generator/",
             "deployed_link": "https://verbaldye.github.io/password-generator/"
+        },
+        {
+            "title": "Taskinator",
+            "skills": "Dynamic HTML/Javascript",
+            "img_path": "taskinator.JPG",
+            "description": "Taskinator is Kanban style site that uses local storage to save tasks in diffent stages of completion.",
+            "github_link": "https://www.github.com/verbaldye/taskinator/",
+            "deployed_link": "https://verbaldye.github.io/taskinator/"
         }
     ]
 }
