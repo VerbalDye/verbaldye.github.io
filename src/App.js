@@ -4,6 +4,7 @@ import About from './components/About';
 import Hero from './components/Hero';
 import Showcase from './components/Showcase';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
     const [currentPage, setCurrentPage] = useState('hero');
@@ -29,6 +30,7 @@ function App() {
             <main>
                 {renderMain(currentPage)}
             </main>
+            {currentPage !== 'hero' && <Footer />}
         </div>
     );
 }

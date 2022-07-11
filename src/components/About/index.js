@@ -1,15 +1,23 @@
+import { useState } from 'react';
+
 function About() {
+    const [skillsOpen, setSkillsOpen] = useState(false)
+
+    function popOpen() {
+        setSkillsOpen(!skillsOpen);
+    }
+
     return (
         <div>
             <h2 className="section-title">About Me</h2>
-            <div className="row justify-content-between align-items-stretch">
-                <article className="col-12 col-md-5 col-xxl-2">
+            <div className="about-me">
+                <article>
                     <h3>Welcome!</h3>
                     <p>
                         Welcome to my portfolio and thanks for visiting! If you across the top, you will find links to my accomplishments in the coding space as well as links to contact me.
                     </p>
                 </article>
-                <article className="col-12 col-md-6 col-xxl-2">
+                <article>
                     <h3>About Me?</h3>
                     <p>
                         I'm 6'3", enjoy cycling, soccer, and anything tech. I get along with just about everyone and try to
@@ -17,7 +25,7 @@ function About() {
                         cultures.
                     </p>
                 </article>
-                <article className="col-12 col-md-7 col-xxl-4">
+                <article>
                     <h3>Experience</h3>
                     <p>
                         I have been working in IT for 4 years since I was 17. I started working part-time at a non-profit
@@ -40,38 +48,35 @@ function About() {
                 </article>
             </div>
             <div className="tech">
-                <button className="button" type="button" data-bs-toggle="collapse" data-bs-target="#tech-collapsable"
-                    aria-expanded="false" aria-controls="tech-collapsable">
+                <button className="btn" type="button" id="skills-btn" onClick={popOpen}>
                     Technical Skills
                 </button>
-                <div className="collapse" id="tech-collapsable">
-                    <div className="d-flex justify-content-around flex-wrap">
-                        <div>
-                            <h3>Languages</h3>
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                                <li>Python</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3>Technologies</h3>
-                            <ul>
-                                <li>JQuery</li>
-                                <li>Bootstrap</li>
-                                <li>Moment/Day</li>
-                                <li>OAuth 2</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3>APIs</h3>
-                            <ul>
-                                <li>REST API</li>
-                                <li>Open Weather</li>
-                                <li>Spotify</li>
-                            </ul>
-                        </div>
+                <div className={skillsOpen ? 'skills-open' : 'skills-list'}>
+                    <div>
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Technologies</h3>
+                        <ul>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                            <li>Moment/Day</li>
+                            <li>OAuth 2</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>APIs</h3>
+                        <ul>
+                            <li>REST API</li>
+                            <li>Open Weather</li>
+                            <li>Spotify</li>
+                        </ul>
                     </div>
                 </div>
             </div>
