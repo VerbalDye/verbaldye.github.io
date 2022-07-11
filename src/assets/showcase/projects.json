@@ -30,6 +30,62 @@
             "description": "Taskinator is Kanban style site that uses local storage to save tasks in diffent stages of completion.",
             "github_link": "https://www.github.com/verbaldye/taskinator/",
             "deployed_link": "https://verbaldye.github.io/taskinator/"
+        },
+        {
+            "title": "Coding Quiz",
+            "skills": "Dynamic HTML/Javascript",
+            "img_path": "coding-quiz.JPG",
+            "description": "The coding quiz is a beautiful quiz format, that tests a users coding knowledge. The scores are store locally and can be viewed from the highscores page.",
+            "github_link": "https://www.github.com/verbaldye/coding-quiz/",
+            "deployed_link": "https://verbaldye.github.io/coding-quiz/"
+        },
+        {
+            "title": "Taskmaster Pro",
+            "skills": "jQuery/Bootstrap",
+            "img_path": "taskmaster-pro.jpg",
+            "description": "This is an iteration of the Taskmaster design that uses jQuery and bootstrap to make a beautiful, functional, and modern product.",
+            "github_link": "https://www.github.com/verbaldye/taskmaster-pro/",
+            "deployed_link": "https://verbaldye.github.io/taskmaster-pro/"
+        },
+        {
+            "title": "Git It Done",
+            "skills": "REST API",
+            "img_path": "git-it-done.JPG",
+            "description": "Git it Done! This project uses Github's REST API to find and catagorize open source projects. You can then select a project to view open issues and contribute!",
+            "github_link": "https://www.github.com/verbaldye/git-it-done/",
+            "deployed_link": "https://verbaldye.github.io/git-it-done/"
+        },
+        {
+            "title": "Weather App",
+            "skills": "Web APIs/CSS/JS",
+            "img_path": "weather-app.JPG",
+            "description": "This uses the OpenWeather API to get and display weather data in a elegent, minimal format.",
+            "github_link": "https://www.github.com/verbaldye/weather-app/",
+            "deployed_link": "https://verbaldye.github.io/weather-app/"
+        },
+        {
+            "title": "Spotify Drink Picker",
+            "skills": "OAuth 2/JS",
+            "img_path": "cocktail-music.JPG",
+            "description": "Uses your Spotify listening data to recommend you a cocktail to listen along with.",
+            "github_link": "https://www.github.com/verbaldye/cocktail-music/",
+            "deployed_link": "https://verbaldye.github.io/cocktail-music"
+        },
+        {
+            "title": "Work Day Scheduler",
+            "skills": "Moment.JS",
+            "img_path": "work-day-scheduler.jpg",
+            "description": "Task Scheduler for planning your day. Shows the current date hour and saves inputs from the user to local storage to save between browser sessions. Click the save icon to save a change made to that hour.",
+            "github_link": "https://www.github.com/verbaldye/work-day-scheduler/",
+            "deployed_link": "https://verbaldye.github.io/work-day-scheduler"
+        },
+        {
+            "title": "Upcycle",
+            "skills": "JS/Express/MySQL/Handlebars",
+            "img_path": "upcycle.jpg",
+            "description": "Upcyle is an application that allows users to post items they no longer want instead of throwing them away. The items are then claimed by other users for only the cost of shipping.",
+            "github_link": "https://github.com/MaxAFath/project-two",
+            "deployed_link": "https://upcycle-store.herokuapp.com/"
         }
     ]
 }
