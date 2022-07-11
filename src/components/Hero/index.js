@@ -1,14 +1,16 @@
-import coverImage from '../../assets/cover/cover_image.jpg'
-
 function Hero({ setCurrentPage }) {
 
     return (
-        <div className='hero' style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${coverImage})` }}>
+        <div className='hero'>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"></link>
             <div className="hero-content">
                 <div>
                     <p>I'm a Fullstack Web Developer. <br></br> I Make Effective, Polished, and Functional Systems.</p>
-                    <button className="button" onClick={() => setCurrentPage('about')}>View My Work <i className="bi bi-arrow-down"></i></button>
+                    <button className="btn" onClick={() => setCurrentPage('about')}>View My Work <i className="bi bi-arrow-down"></i></button>
                 </div>
+            </div>
+            <div id="name-hero">
+                <h1>Dustin Huntsberger</h1>
             </div>
             {/* <div id="name-hero">
                 <h1>Dustin Huntsberger</h1>

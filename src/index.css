@@ -24,6 +24,7 @@ body {
     background: var(--quinary-color);
     color: var(--quaternary-color);
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 header {
@@ -37,14 +38,92 @@ nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding: 20px 0;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .nav-link {
     background-color: rgba(0, 0, 0, 0);
-    color: var(--quinary-color);
+    color: var(--tertiary-color);
     border: none;
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+    background: var(--quinary-color);
+}
+
+.hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./assets/cover/cover_image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: calc(100vh - 69px);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero-content p {
+    color: var(--quinary-color);
+    font-size: 36px;
+    padding: 10px;
+    line-height: 150%;
+}
+
+.hero #name-hero {
+    position: absolute;
+    bottom: 30px;
+    right: 0vw;
+}
+
+.hero #name-hero h1 {
+    padding: 10px 75px;
+    border: 2px solid var(--secondary-color);
+    border-right: none;
+    margin-bottom: 50px;
+    font-size: 48px;
+    background-color: var(--tertiary-color);
+    color: var(--quaternary-color);
+    box-shadow: -7px 7px 10px rgba(0, 0, 0, .5);
+    font-weight: normal;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 2px solid var(--quaternary-color);
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: var(--quinary-color);
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif
+}
+
+.btn:active {
+    background-color: #3a4d34;
+}
+
+.section-title {
+    padding: 10px 50px;
+    border: 3px solid var(--secondary-color);
+    border-left: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    background-color: var(--tertiary-color);
+    width: fit-content;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, .5);
+    color: var(--quaternary-color);
+    font-weight: normal;
 }
